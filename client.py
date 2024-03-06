@@ -72,7 +72,7 @@ def main():
         elif choice == "4":
             delete_data(raw)
         elif choice == "5":
-            raw = True
+            raw = not raw
         elif choice == "6":
             print("Exiting...")
             break
