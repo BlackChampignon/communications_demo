@@ -10,11 +10,6 @@ def hello():
     return "Hello, World!"
 
 
-@app.route('/get_example', methods=['GET'])
-def get_example():
-    return jsonify({"message": "This is a GET request example."})
-
-
 @app.route('/post_example', methods=['POST'])
 def post_example():
     data = request.get_json()
