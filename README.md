@@ -28,12 +28,11 @@ pyhton client.py
 ## 📦 Requirements
 `Python` 3.12 +  
 `flask` 2.5.x +
-`numpy` 1.26.x +
 `pyinstaller` 6.3.x +
 
 ## 🐑 Cloning the Repository
 ```
-git clone git@github.com:iserk/space_invaders.git
+git clone https://github.com/BlackChampignon/communications_demo.git
 cd communications_demo 
 ```
 
